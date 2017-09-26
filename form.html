@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+
+		<div>
+			<label for="name">First Name:</label>
+			<input type="text" id="name" placeholder="First Name" name="firstname"  required>
+
+			<label for="surname">Last Name:</label>
+			<input type="text" id="surname" placeholder="Last Name" name=lastname required>
+		</div>
+
+		<div>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="gender" value="male">
+
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender" value="female">
+
+			<label for="other">Other</label>
+			<input type="radio" id="other" name="gender" value="other">
+		</div>
+
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" name="email" placeholder="your email" required>
+			<label for="password">Password:</label>
+			<input type="password" name="password" placeholder="your password">
+		</div>
+
+		<div>
+			<label for="birthday">Birthday:</label>
+			<select name="month">
+				<option>Month</option>
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+			</select>
+			<select name="day">
+				<option>Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+			<select name="year">
+				<option>Year</option>
+				<option value="1995">1995</option>
+				<option value="1996">1996</option>
+				<option value="1997">1997</option>
+			</select>
+		</div>
+
+		<div>
+			<label for="terms">I agree to the terms and conditions</label>
+			<input type="checkbox" value="terms">
+		</div>
+		
+		<input type="Submit" name="submit">
+	</form>
+</body>
+</html>
