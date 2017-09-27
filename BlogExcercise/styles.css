@@ -1,0 +1,23 @@
+body{
+	margin-left: 25%;
+	margin-right: 25%;
+	border: 20px solid #bdc3c7;
+	font-family: Raleway;
+}
+.post{
+	margin: 15px;
+}
+.date{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.firstp{
+	border-left: 10px solid #bdc3c7;
+	padding-left: 2%;
+}
+hr{
+	margin: 15px;
+	color: #bdc3c7;
+}
