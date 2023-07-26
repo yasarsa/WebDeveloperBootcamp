@@ -9,6 +9,6 @@
   "author": "Anil Sansak",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.18.2"
   }
 }
